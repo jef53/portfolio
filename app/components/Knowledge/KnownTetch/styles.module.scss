@@ -1,0 +1,31 @@
+.infoTech {
+  background-color: #4b5563af;
+  width: 150px;
+  border: none;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 15px 20px;
+
+  div {
+    p {
+      color: #98a3ad;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    h6 {
+      color: #98a3ad;
+      font-weight: 700;
+      line-height: 20px;
+    }
+  }
+
+  .svgIcon {
+    svg {
+      width: 21px;
+      height: 21px;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.main {
+  padding: 100px 23%;
+  display: flex;
+  flex-direction: row;
+
+  .leftContainer {
+    width: 45%;
+    h1 {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    h6 {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #34d399;
+      margin-bottom: 8px;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.795);
+      font-size: 0.8rem;
+      width: 70%;
+      line-height: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .rightContainer {
+    width: 55%;
+  }
+
+  .jobContainer {
+    margin-bottom: 40px;
+    .jobTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+
+        h1 {
+          font-size: 0.8rem;
+          color: gray;
+          margin-bottom: 9px;
+        }
+        h2 {
+          font-size: 0.8rem;
+          color: white;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border: rgba(157, 187, 233, 0.733) 2px solid;
+        border-radius: 50%;
+        margin-right: 30px;
+      }
+    }
+    .jobDescription {
+      border-left: rgba(128, 128, 128, 0.466) 1.5px solid;
+      padding-left: 53px;
+
+      margin-left: 25px;
+      h4 {
+        color: rgb(187, 187, 187);
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: rgb(187, 187, 187);
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+      }
+
+      .techList {
+        width: 200px;
+        padding-bottom: 10px;
+        ul {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          list-style: none;
+        }
+
+        li {
+          color: #34d399;
+          font-size: 0.7rem;
+          background-color: #0c3436;
+          padding: 7px 13px;
+          margin: 5px 5px 5px 0;
+          border: none;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1245px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .leftContainer {
+    margin-bottom: 100px;
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .main {
+    padding: 100px 2%;
+  }
+}
