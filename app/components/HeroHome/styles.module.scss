@@ -1,0 +1,134 @@
+.main {
+  padding: 150px 23%;
+  margin: 0;
+
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .infoContainer {
+    width: 700px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 160px;
+    padding: 0;
+    h1 {
+      width: 250px;
+      margin-bottom: 40px;
+      margin-top: 60px;
+      font-weight: 500;
+
+      span {
+        font-size: 0.8rem;
+        color: #34d399;
+        font-weight: 300;
+        margin-left: 3px;
+      }
+    }
+
+    p {
+      width: 80%;
+      line-height: 22px;
+      font-size: 0.8rem;
+      color: #b7bcc4;
+      margin-bottom: 20px;
+    }
+
+    .techList {
+      margin-bottom: 50px;
+      width: 300px;
+
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        list-style: none;
+      }
+
+      li {
+        color: #34d399;
+        font-size: 0.7rem;
+        background-color: #0c3436;
+        padding: 7px 13px;
+        margin: 8px 8px 8px 0;
+        border: none;
+        border-radius: 12px;
+      }
+    }
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .contactButton {
+      margin-right: 10px;
+      background-color: #34d399;
+      border: none;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 10px 15px;
+      cursor: default;
+    }
+
+    .socialMedias {
+      display: flex;
+      flex-direction: row;
+
+      a {
+        align-items: center;
+        margin: 0 6px;
+      }
+      svg {
+        align-items: center;
+        color: #6b7280;
+      }
+    }
+  }
+}
+
+.profilePicture {
+  width: 520px;
+  height: 500px;
+
+  position: relative;
+}
+
+@media (max-width: 1266px) {
+  .profilePicture {
+    display: none;
+  }
+
+  .main {
+    padding: 0px 2%;
+
+    .infoContainer {
+      p {
+        width: 300px;
+      }
+      .techList {
+        ul {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1645px) {
+  .profilePicture {
+    padding-left: 150px;
+    width: 800px;
+    height: 500px;
+  }
+}

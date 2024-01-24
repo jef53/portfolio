@@ -1,0 +1,51 @@
+.main {
+  margin: 0;
+  padding: 0 23%;
+
+  h1 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #34d399;
+    margin-bottom: 8px;
+  }
+}
+
+.Block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: #6b728075 1px solid;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 30px;
+
+  color: rgb(197, 197, 197);
+  font-size: 0.7rem;
+
+  span {
+    margin-left: 5px;
+    color: white;
+  }
+}
+
+@media (max-width: 1245px) {
+  .Block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+
+  .main {
+    padding: 50px 2%;
+  }
+}
