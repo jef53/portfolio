@@ -53,7 +53,7 @@ export function Contact() {
 
 
       toast.error(errorMessage)
-      return;
+
     } else {
       await sendMail({
         to: "jefdev53@gmail.com",
