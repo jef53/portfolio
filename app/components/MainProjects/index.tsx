@@ -4,6 +4,7 @@ import { KnownTech } from '../Knowledge/KnownTetch'
 import { HygraphFetch } from '@/app/hygraph-query'
 import { Project as ProjectType } from '@/app/projects/page'
 import { Project } from './Project'
+import Link from 'next/link'
 
 const IBM = IBM_Plex_Mono({
   variable: '--font-IBM',
@@ -37,7 +38,7 @@ export function MainProjects({ projects }: MainProjectsProps) {
         ))}
       </div>
 
-      <h3 className={styles.footer}>Se interessou? <span>Ver todos →</span></h3>
+      <Link href="/projects"><h3 className={styles.footer}>Se interessou? <span>Ver todos →</span></h3></Link>
     </div>
   )
 }

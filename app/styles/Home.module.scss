@@ -1,10 +1,6 @@
 .main {
   background-color: #000622;
-  background-image: url("/images/bg.png");
-  background-position: unset;
-
-  background-size: 100vmax 750px;
-  background-repeat: no-repeat;
+  min-width: 400px;
 }
 
 @media (max-width: 1530px) {

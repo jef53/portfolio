@@ -60,23 +60,19 @@
 
   .mainImg {
     margin: 0 25px 0 0;
-    width: 330px;
-
-    height: 210px;
     border-radius: 10px;
+    width: 300px;
   }
 }
 
 @media (max-width: 1245px) {
   .main {
     padding: 40px 0;
-    width: 290px;
     flex-direction: column;
 
     .mainImg {
       padding-bottom: 50px;
       padding-right: 20px;
-      width: 278px;
     }
   }
 

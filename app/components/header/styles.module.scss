@@ -1,11 +1,7 @@
 .main {
-  background-color: #000102;
-  background-image: url("/images/bg.png");
+  background-color: #000622;
 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  min-width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

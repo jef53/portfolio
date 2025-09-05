@@ -1,5 +1,4 @@
 import { Contact } from "./components/Contact";
-import { Experience } from "./components/Experience";
 import { Knowledge } from "./components/Knowledge";
 import { MainProjects } from "./components/MainProjects";
 import { HeroHome } from "./components/HeroHome";
@@ -13,7 +12,6 @@ const getSkillsData = async () => {
     skills {
       technology
       slug
-      experience
       icon
     }
   }
@@ -58,7 +56,6 @@ export default async function Home() {
       <HeroHome />
       <Knowledge skillsData={skillsData.skills} />
       <MainProjects projects={projectsData.projects} />
-      <Experience />
       <Contact />
     </div >
   )

@@ -10,10 +10,13 @@ type Projects = {
 export function Project({ project }: Projects) {
   return (
     <div className={styles.main}>
-      <img className={styles.mainImg} src={project.thumbnail.url} alt="projeto" />
+      <Link href={project.urlProject}>
+        <img className={styles.mainImg} src={project.thumbnail.url} alt="projeto" />
+      </Link>
       <div className={styles.rightContainer}>
         <h1><ImDiamonds size={16} />{project.title}</h1>
         <p>{project.description.text}</p>
+
 
         <div className={styles.techList}>
           <ul>

@@ -1,6 +1,8 @@
 .main {
   margin: 0;
   padding: 0 23%;
+  background-color: #000622;
+  width: 100%;
 
   h1 {
     color: white;
@@ -47,5 +49,13 @@
 
   .main {
     padding: 50px 2%;
+  }
+}
+
+@media (max-width: 354px) {
+  .main {
+    padding: 0;
+    margin: 0;
+    width: 354px;
   }
 }

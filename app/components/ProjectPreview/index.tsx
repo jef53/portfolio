@@ -13,7 +13,7 @@ export function ProjectPreview({ projects }: ProjectsPageData) {
   return (
     <div className={styles.main}>
       {projects.map(project => (
-        <div className={styles.project} key={project.title}>
+        <div className={styles.project} key={project.slug}>
           <Preview project={project} />
         </div>
       ))}
