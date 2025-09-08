@@ -38,7 +38,7 @@ export function MainProjects({ projects }: MainProjectsProps) {
         ))}
       </div>
 
-      <Link href="/projects"><h3 className={styles.footer}>Se interessou? <span>Ver todos →</span></h3></Link>
+      <Link href="/projects" className={styles.footer}><h3 >Se interessou? <span>Ver todos →</span></h3></Link>
     </div>
   )
 }
