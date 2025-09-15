@@ -33,7 +33,7 @@ export function HeroHome() {
           <button className={styles.contactButton}>Entre em contato  →</button>
           <div className={styles.socialMedias}>
             <Link href="https://github.com/jef53"><FiGithub /></Link>
-            <Link href="/"><FiLinkedin /></Link>
+            <Link href="https://www.linkedin.com/in/jef53/"><FiLinkedin /></Link>
 
           </div>
         </div>
